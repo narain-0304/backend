@@ -50,7 +50,7 @@ public class WebSecurityConfiguration {
         configuration.setAllowCredentials(true);
         configuration.setAllowedOrigins(List.of(
             "http://localhost:5173",
-            "https://8081-fddecedccde329052728bccfaccecftwo.premiumproject.examly.io"
+            "https://fifamanagement-4b17e.web.app/"
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         configuration.setAllowedHeaders(List.of("*"));
